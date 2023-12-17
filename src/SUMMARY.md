@@ -1,5 +1,7 @@
 # Summary
 
+- [Columns](./columns.md)
 - [Indexes](./indexes.md)
-- [Tools](./tools.md)
 - [Recover](./recover.md)
+- [Tools](./tools.md)
+- [Typing](./typing.md)
