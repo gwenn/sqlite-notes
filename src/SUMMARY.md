@@ -1,7 +1,18 @@
 # Summary
 
+- [Array](./array.md)
 - [Columns](./columns.md)
+- [Design](./design.md)
+- [Drivers](./drivers.md)
+- [Extensions](./extensions.md)
+- [FTS](./fts.md)
 - [Indexes](./indexes.md)
+- [Introspection](./introspection.md)
+- [Parser](./parser.md)
+- [Recursive](./recursive.md)
 - [Recover](./recover.md)
+- [Schema](./schema.md)
+- [Timestamp](./timestamp.md)
 - [Tools](./tools.md)
+- [Trigger](./trigger.md)
 - [Typing](./typing.md)

@@ -1,0 +1,12 @@
+# Drivers
+
+- <https://www.sqlite.org/android> (official Android bindings)
+- <http://system.data.sqlite.org> (official C# bindings)
+- <https://github.com/mattn/go-sqlite3> (Go)
+- <http://www.ch-werner.de/javasqlite/> - <https://www.sqlite.org/java/> (JDBC)
+- <https://github.com/xerial/sqlite-jdbc> (JDBC)
+- <https://github.com/sqlite/sqlite/tree/master/ext/jni> (official JNI bindings)
+- <http://lua.sqlite.org> (Lua) 
+- <http://www.ch-werner.de/sqliteodbc/> (ODBC)
+- <https://github.com/rogerbinns/apsw> (Python)
+- <https://github.com/sqlite/sqlite/blob/master/src/tclsqlite.c> (official TCL bindings)
