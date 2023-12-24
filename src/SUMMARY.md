@@ -2,6 +2,7 @@
 
 - [Array](./array.md)
 - [Columns](./columns.md)
+- [Delete](./delete.md)
 - [Design](./design.md)
 - [Drivers](./drivers.md)
 - [Extensions](./extensions.md)
@@ -9,6 +10,8 @@
 - [Indexes](./indexes.md)
 - [Introspection](./introspection.md)
 - [Parser](./parser.md)
+- [Profiling](./profiling.md)
+- [Query Plan](./query_plan.md)
 - [Recursive](./recursive.md)
 - [Recover](./recover.md)
 - [Schema](./schema.md)
