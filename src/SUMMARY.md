@@ -16,6 +16,7 @@
 - [Recover](./recover.md)
 - [Schema](./schema.md)
 - [Timestamp](./timestamp.md)
+- [Thread-safe](./thread_safe.md)
 - [Tools](./tools.md)
 - [Trigger](./trigger.md)
 - [Typing](./typing.md)
