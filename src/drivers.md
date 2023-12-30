@@ -10,3 +10,4 @@
 - <http://www.ch-werner.de/sqliteodbc/> (ODBC)
 - <https://github.com/rogerbinns/apsw> (Python)
 - <https://github.com/sqlite/sqlite/blob/master/src/tclsqlite.c> (official TCL bindings)
+- <https://github.com/vrischmann/zig-sqlite> (Zig)
