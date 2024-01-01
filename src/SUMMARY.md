@@ -1,6 +1,7 @@
 # Summary
 
 - [Array](./array.md)
+- [Checks](./checks.md)
 - [Columns](./columns.md)
 - [Delete](./delete.md)
 - [Design](./design.md)
