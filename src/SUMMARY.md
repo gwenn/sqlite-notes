@@ -16,6 +16,7 @@
 - [Recursive](./recursive.md)
 - [Recover](./recover.md)
 - [Schema](./schema.md)
+- [Sync](./sync.md)
 - [Timestamp](./timestamp.md)
 - [Thread-safe](./thread_safe.md)
 - [Tools](./tools.md)

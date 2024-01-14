@@ -16,3 +16,5 @@
 - [Protobuf](https://github.com/rgov/sqlite_protobuf)
 - <>
 - [regexp_replace](https://github.com/gwenn/sqlite-regex-replace-ext)
+
+<https://github.com/topics/sqlite3-extension>
