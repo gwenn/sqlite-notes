@@ -36,3 +36,28 @@ EXPLAIN QUERY PLAN SELECT 1; --> sqlite3_column_count == 4
 PRAGMA locking_mode = 'exclusive'; --> sqlite3_column_count == 1
 INSERT INTO test (data) VALUES ('') RETURNING rowid; --> sqlite3_column_count == 1
 ```
+
+### rusqlite API
+
+- execute_batch => multiple statements allowed
+- others => disallowed
+
+- execute => sqlite3_changes
+- insert => sqlite3_last_insert_rowid (~ table without rowid)
+
+| Statement         | execute_batch | execute | insert | query*    |
+|                   |               |         |        | exists    |
+| ----------------- | ------------- | ------- | ------ | --------- |
+| ANALYZE           | yes           | no      | no     | no        |
+| ATTACH/DETACH     | yes           | no      | no     | no        |
+| BEGIN/COMMIT/END  | yes           | no      | no     | no        |
+| EXPLAIN           | no            | no      | no     | yes       |
+| CREATE/ALTER/DROP | yes           | no      | no     | no        |
+| DELETE/UPDATE     | yes           | yes     | no     | RETURNING |
+| INSERT            | yes           | yes     | yes    | RETURNING |
+| REINDEX           | yes           | no      | no     | no        |
+| RELEASE/ROLLBACK  | yes           | no      | no     | no        |
+| SAVEPOINT         | yes           | no      | no     | no        |
+| SELECT            | no ~          | no      | no     | yes       |
+| PRAGMA            | yes           | no      | no     | yes ~     |
+| VACUUM            | yes           | no      | no     | no        |
