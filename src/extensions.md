@@ -18,3 +18,9 @@
 - [regexp_replace](https://github.com/gwenn/sqlite-regex-replace-ext)
 
 <https://github.com/topics/sqlite3-extension>
+
+## Auto-extension
+
+- [sqlite3_auto_extension](http://sqlite.org/c3ref/auto_extension.html)
+- [sqlite3_reset_auto_extension](http://sqlite.org/c3ref/reset_auto_extension.html)
+- [sqlite3_cancel_auto_extension](http://sqlite.org/c3ref/cancel_auto_extension.html)
