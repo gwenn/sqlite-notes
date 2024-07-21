@@ -17,6 +17,7 @@
 - [Recover](./recover.md)
 - [Schema](./schema.md)
 - [Server](./server.md)
+- [Sql](sql.md)
 - [Sync](./sync.md)
 - [Timestamp](./timestamp.md)
 - [Thread-safe](./thread_safe.md)
