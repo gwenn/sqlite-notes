@@ -45,8 +45,7 @@ INSERT INTO test (data) VALUES ('') RETURNING rowid; --> sqlite3_column_count ==
 - execute => sqlite3_changes
 - insert => sqlite3_last_insert_rowid (~ table without rowid)
 
-| Statement         | execute_batch | execute | insert | query*    |
-|                   |               |         |        | exists    |
+| Statement         | execute_batch | execute | insert | query* / exists   |
 | ----------------- | ------------- | ------- | ------ | --------- |
 | ANALYZE           | yes           | no      | no     | no        |
 | ATTACH/DETACH     | yes           | no      | no     | no        |

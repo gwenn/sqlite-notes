@@ -11,6 +11,7 @@
 - [Indexes](./indexes.md)
 - [Introspection](./introspection.md)
 - [Parser](./parser.md)
+- [Patterns](patterns.md)
 - [Profiling](./profiling.md)
 - [Query Plan](./query_plan.md)
 - [Recursive](./recursive.md)
