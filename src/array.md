@@ -71,8 +71,13 @@ extern "C" {
 ## Rust
 
 ```rust
-unsafe trait TypedPointer: Drop {
+unsafe trait TypedPointer {
 	const TYPE: *const c_char;
+    /// To be used as 3rd / 2nd argument of `sqlite3_bind_pointer` / `sqlite3_result_pointer`
 	fn into_raw(self) -> *mut c_void;
+    /// To be used to cast SQLite pointer returned by `sqlite3_value_pointer`
+    fn from_raw(p: *mut c_void) -> Self;
+    /// Destructor
+    fn drop(p: *mut c_void);
 }
 ```
