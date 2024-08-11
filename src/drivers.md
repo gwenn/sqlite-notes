@@ -11,3 +11,5 @@
 - <https://github.com/rogerbinns/apsw> (Python)
 - <https://github.com/sqlite/sqlite/blob/master/src/tclsqlite.c> (official TCL bindings)
 - <https://github.com/vrischmann/zig-sqlite> (Zig)
+- <https://github.com/stainless-steel/sqlite> (Rust)
+- <https://github.com/CGamesPlay/sqlite3_ext> (Rust)
