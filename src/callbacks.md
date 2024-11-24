@@ -74,6 +74,8 @@ void *sqlite3_preupdate_hook(
 ```C
 void sqlite3_progress_handler(sqlite3*, int, int(*)(void*), void*);
 ```
+> Only a single progress handler may be defined at one time per database connection;
+> setting a new progress handler cancels the old one.
 
 ## Profile / Trace
 
