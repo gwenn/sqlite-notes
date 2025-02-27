@@ -5,6 +5,7 @@
 - [rqlite](https://github.com/rqlite/rqlite) (Go)
 - [dqlite](https://github.com/canonical/dqlite) (C)
 - [mvsqlite](https://github.com/losfair/mvsqlite) (Rust)
+- [Hiqlite](https://github.com/sebadob/hiqlite) (Rust)
 
 ## Configuration / optimisation
 
