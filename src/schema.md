@@ -22,7 +22,7 @@ SELECT * FROM pragma_index_xinfo('idx');
 ```
 
 ```sql
-SELECT * FROM pragma_index_list('invoice') WHERE unique = 1; -- does not work !
+SELECT * FROM pragma_index_list('invoice') WHERE `unique` = 1;
 ```
 
 ```sql

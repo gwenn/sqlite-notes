@@ -11,7 +11,7 @@ analysis_limit
 ```
 
 
-## Database(s)
+## Database(s) (=> java.sql.DatabaseMetaData#getSchemas() / java.sql.DatabaseMetaData#getSchemas(String, String))
 <https://sqlite.org/pragma.html#pragma_database_list>
 ```sql
 SELECT * FROM pragma_database_list() WHERE name LIKE 'main%' OR name = 'temp';
@@ -22,7 +22,7 @@ seq|name|file
 1|temp|
 ```
 
-## Functions
+## Functions (=> java.sql.DatabaseMetaData#getFunctions)
 <https://sqlite.org/pragma.html#pragma_function_list>
 ```sql
 SELECT * FROM pragma_function_list();
@@ -48,7 +48,7 @@ seq|name
 4|BINARY
 ```
 
-## Tables
+## Tables (=> java.sql.DatabaseMetaData#getTables)
 <https://sqlite.org/pragma.html#pragma_table_list>
 ```sql
 SELECT * FROM pragma_table_list() WHERE schema LIKE 'main' AND name LIKE 'x%';
@@ -58,7 +58,7 @@ schema|name|type|ncol|wr|strict
 main|x|table|1|0|0
 ```
 
-## Table columns
+## Table columns (=> java.sql.DatabaseMetaData#getColumns / java.sql.DatabaseMetaData#getBestRowIdentifier / java.sql.DatabaseMetaData#getPrimaryKeys)
 <https://sqlite.org/pragma.html#pragma_table_info>
 <https://sqlite.org/pragma.html#pragma_table_xinfo>
 ```sql
@@ -69,7 +69,7 @@ cid|name|type|notnull|dflt_value|pk|hidden
 0|a|TEXT|1||0|0
 ```
 
-## Foreign keys
+## Foreign keys (=> java.sql.DatabaseMetaData#getCrossReference / java.sql.DatabaseMetaData#getImportedKeys / java.sql.DatabaseMetaData#getExportedKeys)
 <https://sqlite.org/pragma.html#pragma_foreign_key_list>
 ```sql
 SELECT * FROM pragma_foreign_key_list('y');
@@ -79,7 +79,7 @@ id|seq|table|from|to|on_update|on_delete|match
 0|0|x|a|a|NO ACTION|NO ACTION|NONE
 ```
 
-## Indexes
+## Indexes (=> java.sql.DatabaseMetaData#getIndexInfo)
 <https://sqlite.org/pragma.html#pragma_index_list>
 ```sql
 SELECT * FROM pragma_index_list('x');
@@ -89,7 +89,7 @@ seq|name|unique|origin|partial
 0|sqlite_autoindex_x_1|1|u|0
 ```
 
-## Index info
+## Index info (=> java.sql.DatabaseMetaData#getIndexInfo)
 <https://sqlite.org/pragma.html#pragma_index_info>
 <https://sqlite.org/pragma.html#pragma_index_xinfo>
 ```sql
