@@ -13,6 +13,7 @@
 - [Introspection](./introspection.md)
 - [Parser](./parser.md)
 - [Patterns](patterns.md)
+- [Pragma](./pragma.md)
 - [Profiling](./profiling.md)
 - [Query Plan](./query_plan.md)
 - [Recursive](./recursive.md)
