@@ -7,7 +7,7 @@ The RBU extension is an add-on for SQLite designed for use with large SQLite dat
 
 ## Session
 
-The session extension provide a mechanism for conviently recording changes to some or all of certain tables in an SQLite database, and packaging those changes into a "changeset" or "patchset" file that can later be used to apply the same set of changes to another database with the same schema and compatible starting data. A "changeset" may also be inverted and used to "undo" a session.
+The session extension provide a mechanism for conveniently recording changes to some or all of certain tables in an SQLite database, and packaging those changes into a "changeset" or "patchset" file that can later be used to apply the same set of changes to another database with the same schema and compatible starting data. A "changeset" may also be inverted and used to "undo" a session.
 <https://sqlite.org/sessionintro.html>
 
 ## Misc
