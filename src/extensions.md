@@ -14,10 +14,12 @@
 - [XPath](http://www.ch-werner.de/sqliteodbc/html/xpath_8c.html)
 - [Parquet](https://github.com/cldellow/sqlite-parquet-vtable/tree/master)
 - [Protobuf](https://github.com/rgov/sqlite_protobuf)
-- <>
 - [regexp_replace](https://github.com/gwenn/sqlite-regex-replace-ext)
 
-<https://github.com/topics/sqlite3-extension>
+## Search
+
+- <https://github.com/topics/sqlite3-extension>
+- <https://sqlpkg.org/>
 
 ## Auto-extension
 
