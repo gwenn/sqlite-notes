@@ -17,3 +17,4 @@ The session extension provide a mechanism for conveniently recording changes to 
 - <https://github.com/benbjohnson/litestream>
 - <https://github.com/cmars/ddcp>
 - <https://github.com/vlcn-io/cr-sqlite>
+- <https://github.com/orbitinghail/graft>
