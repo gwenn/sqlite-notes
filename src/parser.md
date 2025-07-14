@@ -12,3 +12,9 @@
 - <https://github.com/codeschool/sqlite-parser> (JS)
 - <https://github.com/IreneKnapp/language-sqlite> (Haskell)
 
+### Generic
+
+- <https://github.com/andialbrecht/sqlparse> (Python)
+- <https://github.com/apache/datafusion-sqlparser-rs> (Rust)
+- <https://github.com/JSQLParser/JSqlParser> (Java)
+
