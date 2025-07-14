@@ -3,6 +3,7 @@
 - [Array](./array.md)
 - [Callbacks](./callbacks.md)
 - [Checks](./checks.md)
+- [CLI](cli.md)
 - [Columns](./columns.md)
 - [Delete](./delete.md)
 - [Design](./design.md)
