@@ -18,6 +18,7 @@
 
 ## VFS
 
+- [sqlite-vfs](https://github.com/rklaehn/sqlite-vfs)
 - [sqlite-plugin](https://github.com/orbitinghail/sqlite-plugin)
 
 ## Search
