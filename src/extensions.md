@@ -16,6 +16,10 @@
 - [Protobuf](https://github.com/rgov/sqlite_protobuf)
 - [regexp_replace](https://github.com/gwenn/sqlite-regex-replace-ext)
 
+## VFS
+
+- [sqlite-plugin](https://github.com/orbitinghail/sqlite-plugin)
+
 ## Search
 
 - <https://github.com/topics/sqlite3-extension>
